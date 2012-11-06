@@ -62,12 +62,7 @@
 		D5AB73BF1647D479006FB0DC /* MojiEffect.m in Sources */ = {isa = PBXBuildFile; fileRef = D5AB73BD1647D479006FB0DC /* MojiEffect.m */; };
 		D5AB73C11647D5C2006FB0DC /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5AB73C01647D5C2006FB0DC /* SenTestingKit.framework */; };
 		D5AB73C31647D5FC006FB0DC /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5AB73C21647D5FA006FB0DC /* CoreImage.framework */; };
-		D5AB73DA16489ED6006FB0DC /* bar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D5AB73D616489ECF006FB0DC /* bar@2x.png */; };
-		D5AB73DB16489ED6006FB0DC /* cancel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D5AB73D716489ED1006FB0DC /* cancel@2x.png */; };
-		D5AB73DC16489ED6006FB0DC /* done@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D5AB73D816489ED2006FB0DC /* done@2x.png */; };
-		D5AB73DD16489ED6006FB0DC /* upload@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D5AB73D916489ED4006FB0DC /* upload@2x.png */; };
 		D5AB73E01648A398006FB0DC /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5AB73DF1648A398006FB0DC /* DetailViewController.m */; };
-		D83A7D861648A9CF00AB5830 /* AWSiOSSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D83A7D851648A9CF00AB5830 /* AWSiOSSDK.framework */; };
 		D83A7D8C1648BA8600AB5830 /* faceicon2.png in Resources */ = {isa = PBXBuildFile; fileRef = D83A7D8B1648BA8600AB5830 /* faceicon2.png */; };
 		D83A7D941648E5F100AB5830 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D83A7D931648E5F100AB5830 /* QuartzCore.framework */; };
 		D83A7D961648E71C00AB5830 /* faceicon4.png in Resources */ = {isa = PBXBuildFile; fileRef = D83A7D951648E71C00AB5830 /* faceicon4.png */; };
@@ -88,6 +83,14 @@
 		D83A7DB9164957F700AB5830 /* example1.png in Resources */ = {isa = PBXBuildFile; fileRef = D83A7DB4164957F600AB5830 /* example1.png */; };
 		D83A7DBA164957F700AB5830 /* example4.png in Resources */ = {isa = PBXBuildFile; fileRef = D83A7DB5164957F700AB5830 /* example4.png */; };
 		D83A7DC216498BFD00AB5830 /* example5.png in Resources */ = {isa = PBXBuildFile; fileRef = D83A7DC116498BFD00AB5830 /* example5.png */; };
+		D83A7DC916498D4600AB5830 /* AWSiOSSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D83A7DC816498D4600AB5830 /* AWSiOSSDK.framework */; };
+		D83A7DD516498EDB00AB5830 /* bar_edit_word@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D83A7DCE16498EDB00AB5830 /* bar_edit_word@2x.png */; };
+		D83A7DD616498EDB00AB5830 /* bar_face_detect@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D83A7DCF16498EDB00AB5830 /* bar_face_detect@2x.png */; };
+		D83A7DD716498EDB00AB5830 /* cancel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D83A7DD016498EDB00AB5830 /* cancel@2x.png */; };
+		D83A7DD816498EDB00AB5830 /* done@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D83A7DD116498EDB00AB5830 /* done@2x.png */; };
+		D83A7DD916498EDB00AB5830 /* example6.png in Resources */ = {isa = PBXBuildFile; fileRef = D83A7DD216498EDB00AB5830 /* example6.png */; };
+		D83A7DDA16498EDB00AB5830 /* example7.png in Resources */ = {isa = PBXBuildFile; fileRef = D83A7DD316498EDB00AB5830 /* example7.png */; };
+		D83A7DDB16498EDB00AB5830 /* upload@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D83A7DD416498EDB00AB5830 /* upload@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -179,13 +182,8 @@
 		D5AB73BD1647D479006FB0DC /* MojiEffect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MojiEffect.m; sourceTree = "<group>"; };
 		D5AB73C01647D5C2006FB0DC /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		D5AB73C21647D5FA006FB0DC /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
-		D5AB73D616489ECF006FB0DC /* bar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bar@2x.png"; sourceTree = "<group>"; };
-		D5AB73D716489ED1006FB0DC /* cancel@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cancel@2x.png"; sourceTree = "<group>"; };
-		D5AB73D816489ED2006FB0DC /* done@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "done@2x.png"; sourceTree = "<group>"; };
-		D5AB73D916489ED4006FB0DC /* upload@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "upload@2x.png"; sourceTree = "<group>"; };
 		D5AB73DE1648A397006FB0DC /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		D5AB73DF1648A398006FB0DC /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
-		D83A7D851648A9CF00AB5830 /* AWSiOSSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSiOSSDK.framework; path = "../aws-ios-sdk-1.4.3/AWSiOSSDK.framework"; sourceTree = "<group>"; };
 		D83A7D8B1648BA8600AB5830 /* faceicon2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = faceicon2.png; sourceTree = "<group>"; };
 		D83A7D931648E5F100AB5830 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		D83A7D951648E71C00AB5830 /* faceicon4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = faceicon4.png; sourceTree = "<group>"; };
@@ -209,6 +207,14 @@
 		D83A7DB4164957F600AB5830 /* example1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = example1.png; sourceTree = "<group>"; };
 		D83A7DB5164957F700AB5830 /* example4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = example4.png; sourceTree = "<group>"; };
 		D83A7DC116498BFD00AB5830 /* example5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = example5.png; sourceTree = "<group>"; };
+		D83A7DC816498D4600AB5830 /* AWSiOSSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSiOSSDK.framework; path = "../../aws-ios-sdk-1.4.3/AWSiOSSDK.framework"; sourceTree = "<group>"; };
+		D83A7DCE16498EDB00AB5830 /* bar_edit_word@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bar_edit_word@2x.png"; sourceTree = "<group>"; };
+		D83A7DCF16498EDB00AB5830 /* bar_face_detect@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bar_face_detect@2x.png"; sourceTree = "<group>"; };
+		D83A7DD016498EDB00AB5830 /* cancel@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cancel@2x.png"; sourceTree = "<group>"; };
+		D83A7DD116498EDB00AB5830 /* done@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "done@2x.png"; sourceTree = "<group>"; };
+		D83A7DD216498EDB00AB5830 /* example6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = example6.png; sourceTree = "<group>"; };
+		D83A7DD316498EDB00AB5830 /* example7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = example7.png; sourceTree = "<group>"; };
+		D83A7DD416498EDB00AB5830 /* upload@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "upload@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -216,8 +222,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D83A7DC916498D4600AB5830 /* AWSiOSSDK.framework in Frameworks */,
 				D83A7D941648E5F100AB5830 /* QuartzCore.framework in Frameworks */,
-				D83A7D861648A9CF00AB5830 /* AWSiOSSDK.framework in Frameworks */,
 				D5AB73C31647D5FC006FB0DC /* CoreImage.framework in Frameworks */,
 				D5AB73C11647D5C2006FB0DC /* SenTestingKit.framework in Frameworks */,
 				D5AB737416448129006FB0DC /* CFNetwork.framework in Frameworks */,
@@ -237,8 +243,8 @@
 		D5AB71D116431B26006FB0DC = {
 			isa = PBXGroup;
 			children = (
+				D83A7DC816498D4600AB5830 /* AWSiOSSDK.framework */,
 				D83A7D931648E5F100AB5830 /* QuartzCore.framework */,
-				D83A7D851648A9CF00AB5830 /* AWSiOSSDK.framework */,
 				D5AB73C21647D5FA006FB0DC /* CoreImage.framework */,
 				D5AB73C01647D5C2006FB0DC /* SenTestingKit.framework */,
 				D5AB71E616431B26006FB0DC /* Misawa */,
@@ -436,6 +442,13 @@
 		D5AB739B1647D2C8006FB0DC /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				D83A7DCE16498EDB00AB5830 /* bar_edit_word@2x.png */,
+				D83A7DCF16498EDB00AB5830 /* bar_face_detect@2x.png */,
+				D83A7DD016498EDB00AB5830 /* cancel@2x.png */,
+				D83A7DD116498EDB00AB5830 /* done@2x.png */,
+				D83A7DD216498EDB00AB5830 /* example6.png */,
+				D83A7DD316498EDB00AB5830 /* example7.png */,
+				D83A7DD416498EDB00AB5830 /* upload@2x.png */,
 				D83A7DAE1649515600AB5830 /* konanGlass.png */,
 				D83A7DAC1649515000AB5830 /* konanMouth.png */,
 				D83A7DAA1649514A00AB5830 /* konanLeft.png */,
@@ -443,10 +456,6 @@
 				D83A7D9F16493DFA00AB5830 /* gokuLeft.png */,
 				D83A7DA116493E0400AB5830 /* gokuRight.png */,
 				D83A7DA316493E0A00AB5830 /* gokuMouth.png */,
-				D5AB73D616489ECF006FB0DC /* bar@2x.png */,
-				D5AB73D716489ED1006FB0DC /* cancel@2x.png */,
-				D5AB73D816489ED2006FB0DC /* done@2x.png */,
-				D5AB73D916489ED4006FB0DC /* upload@2x.png */,
 				D83A7DC116498BFD00AB5830 /* example5.png */,
 				D83A7DB5164957F700AB5830 /* example4.png */,
 				D83A7DB3164957F600AB5830 /* example3.png */,
@@ -539,10 +548,6 @@
 				D5AB73B71647D303006FB0DC /* face8.jpeg in Resources */,
 				D5AB73B81647D303006FB0DC /* face9.png in Resources */,
 				D5AB73B91647D303006FB0DC /* face10.png in Resources */,
-				D5AB73DA16489ED6006FB0DC /* bar@2x.png in Resources */,
-				D5AB73DB16489ED6006FB0DC /* cancel@2x.png in Resources */,
-				D5AB73DC16489ED6006FB0DC /* done@2x.png in Resources */,
-				D5AB73DD16489ED6006FB0DC /* upload@2x.png in Resources */,
 				D83A7D8C1648BA8600AB5830 /* faceicon2.png in Resources */,
 				D83A7D961648E71C00AB5830 /* faceicon4.png in Resources */,
 				D83A7D9816492F9700AB5830 /* faceicon1.png in Resources */,
@@ -559,6 +564,13 @@
 				D83A7DB9164957F700AB5830 /* example1.png in Resources */,
 				D83A7DBA164957F700AB5830 /* example4.png in Resources */,
 				D83A7DC216498BFD00AB5830 /* example5.png in Resources */,
+				D83A7DD516498EDB00AB5830 /* bar_edit_word@2x.png in Resources */,
+				D83A7DD616498EDB00AB5830 /* bar_face_detect@2x.png in Resources */,
+				D83A7DD716498EDB00AB5830 /* cancel@2x.png in Resources */,
+				D83A7DD816498EDB00AB5830 /* done@2x.png in Resources */,
+				D83A7DD916498EDB00AB5830 /* example6.png in Resources */,
+				D83A7DDA16498EDB00AB5830 /* example7.png in Resources */,
+				D83A7DDB16498EDB00AB5830 /* upload@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -676,6 +688,7 @@
 					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
 					"\"$(SRCROOT)/../../../github/local/misawa\"",
 					"\"$(SRCROOT)/../aws-ios-sdk-1.4.3\"",
+					"\"$(SRCROOT)/../../aws-ios-sdk-1.4.3\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Misawa/Misawa-Prefix.pch";
@@ -696,6 +709,7 @@
 					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
 					"\"$(SRCROOT)/../../../github/local/misawa\"",
 					"\"$(SRCROOT)/../aws-ios-sdk-1.4.3\"",
+					"\"$(SRCROOT)/../../aws-ios-sdk-1.4.3\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Misawa/Misawa-Prefix.pch";

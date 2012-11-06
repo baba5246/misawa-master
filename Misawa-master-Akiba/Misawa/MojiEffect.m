@@ -34,6 +34,13 @@
         case 5:
             mojiImage = [UIImage imageNamed:@"example5.png"];
             break;
+        case 6:
+            mojiImage = [UIImage imageNamed:@"example6.png"];
+            break;
+        case 7:
+            mojiImage = [UIImage imageNamed:@"example7.png"];
+            break;
+
         default:
             mojiImage = NULL;
             break;

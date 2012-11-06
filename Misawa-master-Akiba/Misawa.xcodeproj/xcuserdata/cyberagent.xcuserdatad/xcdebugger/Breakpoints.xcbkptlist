@@ -8,11 +8,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "Misawa/EditFaceViewController.m"
-         timestampString = "373915859.710663"
+         timestampString = "373919843.980809"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "157"
-         endingLineNumber = "157"
+         startingLineNumber = "153"
+         endingLineNumber = "153"
          landmarkName = "-editDone"
          landmarkType = "5">
       </FileBreakpoint>
@@ -40,19 +40,6 @@
          startingLineNumber = "109"
          endingLineNumber = "109"
          landmarkName = "-viewDidAppear:"
-         landmarkType = "5">
-      </FileBreakpoint>
-      <FileBreakpoint
-         shouldBeEnabled = "No"
-         ignoreCount = "0"
-         continueAfterRunningActions = "No"
-         filePath = "Misawa/EditFaceViewController.m"
-         timestampString = "373915354.172474"
-         startingColumnNumber = "9223372036854775807"
-         endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "51"
-         endingLineNumber = "51"
-         landmarkName = "-initWithImage:"
          landmarkType = "5">
       </FileBreakpoint>
       <FileBreakpoint

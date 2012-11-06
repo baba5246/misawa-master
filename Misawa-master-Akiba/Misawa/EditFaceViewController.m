@@ -46,12 +46,8 @@
     self = [super init];
     if (self) {
         
-        UIView *naviView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 320, 45)];
-        CAGradientLayer *gradient = [CAGradientLayer layer];
-        gradient.frame = naviView.bounds;
-        gradient.colors = [NSArray arrayWithObjects:(id)[UIColor blackColor].CGColor,
-                                                    (id)[UIColor whiteColor].CGColor, nil];
-        [naviView.layer insertSublayer:gradient atIndex:0];
+        UIView *naviView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 320, 50)];
+        [naviView setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"bar_face_detect"]]];
         [self.view addSubview:naviView];
         
         imageView = [[UIImageView alloc] initWithFrame:CGRectMake(0, 50, 320, 320)];
@@ -61,15 +57,15 @@
         UIButton *cancelBtn = [UIButton buttonWithType:UIButtonTypeCustom];
         [cancelBtn addTarget:self action:@selector(editCancel)
                                   forControlEvents:UIControlEventTouchUpInside];
-        [cancelBtn setImage:[UIImage imageNamed:@"cancel.png"] forState:UIControlStateNormal];
+        [cancelBtn setImage:[UIImage imageNamed:@"cancel@2x.png"] forState:UIControlStateNormal];
         
-        cancelBtn.frame = CGRectMake(10, 10, 70, 25);
+        cancelBtn.frame = CGRectMake(10, 5, 35, 35);
         [naviView addSubview:cancelBtn];
         
         UIButton *doneBtn = [UIButton buttonWithType:UIButtonTypeCustom];
-        [doneBtn setImage:[UIImage imageNamed:@"done.png"] forState:UIControlStateNormal];
+        [doneBtn setImage:[UIImage imageNamed:@"done@2x.png"] forState:UIControlStateNormal];
         [doneBtn addTarget:self action:@selector(editDone) forControlEvents:UIControlEventTouchUpInside];
-        doneBtn.frame = CGRectMake(245, 10, 70, 25);
+        doneBtn.frame = CGRectMake(275, 5, 35, 35);
         [naviView addSubview:doneBtn];
     }
     return self;

@@ -24,6 +24,8 @@
     UIImage *mojiMisawa3Image;
     UIImage *mojiMisawa4Image;
     UIImage *mojiMisawa5Image;
+    UIImage *mojiMisawa6Image;
+    UIImage *mojiMisawa7Image;
     bool cameraOnFlag;
     bool cancelFlag;
 }
@@ -46,12 +48,8 @@
 - (id)initWithImage:(UIImage*)image {
     self = [super init];
     if (self) {
-        UIView *naviView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 320, 45)];
-        CAGradientLayer *gradient = [CAGradientLayer layer];
-        gradient.frame = naviView.bounds;
-        gradient.colors = [NSArray arrayWithObjects:(id)[UIColor blackColor].CGColor,
-                           (id)[UIColor whiteColor].CGColor, nil];
-        [naviView.layer insertSublayer:gradient atIndex:0];
+        UIView *naviView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 320, 50)];
+        [naviView setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"bar_edit_word"]]];
         [self.view addSubview:naviView];
         
         imageView = [[UIImageView alloc] initWithFrame:CGRectMake(0, 50, 320, 320)];
@@ -61,14 +59,14 @@
         
         UIButton *cancelBtn = [UIButton buttonWithType:UIButtonTypeCustom];
         [cancelBtn addTarget:self action:@selector(editCancel) forControlEvents:UIControlEventTouchUpInside];
-        [cancelBtn setImage:[UIImage imageNamed:@"cancel.png"] forState:UIControlStateNormal];
-        cancelBtn.frame = CGRectMake(10, 10, 70, 25);
+        [cancelBtn setImage:[UIImage imageNamed:@"cancel@2x.png"] forState:UIControlStateNormal];
+        cancelBtn.frame = CGRectMake(10, 7.5, 35, 35);
         [naviView addSubview:cancelBtn];
         
         UIButton *upLoadBtn = [UIButton buttonWithType:UIButtonTypeCustom];
-        [upLoadBtn setImage:[UIImage imageNamed:@"upload.png"] forState:UIControlStateNormal];
+        [upLoadBtn setImage:[UIImage imageNamed:@"upload@2x.png"] forState:UIControlStateNormal];
         [upLoadBtn addTarget:self action:@selector(upLoad) forControlEvents:UIControlEventTouchUpInside];
-        upLoadBtn.frame = CGRectMake(245, 10, 70, 25);
+        upLoadBtn.frame = CGRectMake(275, 7.5, 35, 35);
         [naviView addSubview:upLoadBtn];
         
         [self initializeLocalInstance];
@@ -112,7 +110,7 @@
     
     self.view.backgroundColor = [UIColor whiteColor];
     
-    UIScrollView *scrollView = [[UIScrollView alloc] initWithFrame:CGRectMake(0, 370, 380, 90)];
+    UIScrollView *scrollView = [[UIScrollView alloc] initWithFrame:CGRectMake(0, 370, 530, 90)];
     CAGradientLayer *gradient = [CAGradientLayer layer];
     gradient.frame = scrollView.bounds;
     gradient.colors = [NSArray arrayWithObjects:(id)[UIColor whiteColor].CGColor,
@@ -120,10 +118,10 @@
     [scrollView.layer insertSublayer:gradient atIndex:0];
     [scrollView setScrollEnabled:YES];
     [scrollView setShowsHorizontalScrollIndicator:YES];
-    [scrollView setContentSize:CGSizeMake(440, scrollView.frame.size.height - 10)];
+    [scrollView setContentSize:CGSizeMake(720, scrollView.frame.size.height - 10)];
     
-    UIButton *btn[5];
-    for (int i = 0; i < 5; i++) {
+    UIButton *btn[7];
+    for (int i = 0; i < 7; i++) {
         btn[i] = [UIButton buttonWithType:UIButtonTypeRoundedRect];
         NSString *str = [NSString stringWithFormat:@"%@%d%@", @"example", i + 1, @".png"];
         [btn[i] setImage:[UIImage imageNamed:str] forState:UIControlStateNormal];
@@ -334,7 +332,12 @@
         case 5:
             [self setMojiMisawa5:btn];
             break;
-
+        case 6:
+            [self setMojiMisawa6:btn];
+            break;
+        case 7:
+            [self setMojiMisawa7:btn];
+            break;
         default:
             break;
     }
@@ -389,6 +392,26 @@
         [imageView setImage:mojiMisawa5Image];
     }
     else [imageView setImage:mojiMisawa5Image];
+}
+
+- (void)setMojiMisawa6:(id)sender {
+    if (mojiMisawa6Image == NULL)
+    {
+        MojiEffect *mojiEffect = [[MojiEffect alloc] init];
+        mojiMisawa6Image = [mojiEffect createMojiEffect:effectedImage :6];
+        [imageView setImage:mojiMisawa6Image];
+    }
+    else [imageView setImage:mojiMisawa6Image];
+}
+
+- (void)setMojiMisawa7:(id)sender {
+    if (mojiMisawa7Image == NULL)
+    {
+        MojiEffect *mojiEffect = [[MojiEffect alloc] init];
+        mojiMisawa7Image = [mojiEffect createMojiEffect:effectedImage :7];
+        [imageView setImage:mojiMisawa7Image];
+    }
+    else [imageView setImage:mojiMisawa7Image];
 }
 
 -(void)initializeLocalInstance
