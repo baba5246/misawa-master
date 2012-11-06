@@ -87,7 +87,7 @@
 		D83A7DB8164957F700AB5830 /* example3.png in Resources */ = {isa = PBXBuildFile; fileRef = D83A7DB3164957F600AB5830 /* example3.png */; };
 		D83A7DB9164957F700AB5830 /* example1.png in Resources */ = {isa = PBXBuildFile; fileRef = D83A7DB4164957F600AB5830 /* example1.png */; };
 		D83A7DBA164957F700AB5830 /* example4.png in Resources */ = {isa = PBXBuildFile; fileRef = D83A7DB5164957F700AB5830 /* example4.png */; };
-		D83A7DBB164957F700AB5830 /* example5.png in Resources */ = {isa = PBXBuildFile; fileRef = D83A7DB6164957F700AB5830 /* example5.png */; };
+		D83A7DC216498BFD00AB5830 /* example5.png in Resources */ = {isa = PBXBuildFile; fileRef = D83A7DC116498BFD00AB5830 /* example5.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -208,7 +208,7 @@
 		D83A7DB3164957F600AB5830 /* example3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = example3.png; sourceTree = "<group>"; };
 		D83A7DB4164957F600AB5830 /* example1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = example1.png; sourceTree = "<group>"; };
 		D83A7DB5164957F700AB5830 /* example4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = example4.png; sourceTree = "<group>"; };
-		D83A7DB6164957F700AB5830 /* example5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = example5.png; sourceTree = "<group>"; };
+		D83A7DC116498BFD00AB5830 /* example5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = example5.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -447,7 +447,7 @@
 				D5AB73D716489ED1006FB0DC /* cancel@2x.png */,
 				D5AB73D816489ED2006FB0DC /* done@2x.png */,
 				D5AB73D916489ED4006FB0DC /* upload@2x.png */,
-				D83A7DB6164957F700AB5830 /* example5.png */,
+				D83A7DC116498BFD00AB5830 /* example5.png */,
 				D83A7DB5164957F700AB5830 /* example4.png */,
 				D83A7DB3164957F600AB5830 /* example3.png */,
 				D83A7DB2164957F600AB5830 /* example2.png */,
@@ -558,7 +558,7 @@
 				D83A7DB8164957F700AB5830 /* example3.png in Resources */,
 				D83A7DB9164957F700AB5830 /* example1.png in Resources */,
 				D83A7DBA164957F700AB5830 /* example4.png in Resources */,
-				D83A7DBB164957F700AB5830 /* example5.png in Resources */,
+				D83A7DC216498BFD00AB5830 /* example5.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

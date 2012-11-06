@@ -112,24 +112,29 @@
     
     self.view.backgroundColor = [UIColor whiteColor];
     
-    UIScrollView *scrollView = [[UIScrollView alloc] initWithFrame:CGRectMake(0, 370, 320, 90)];
+    UIScrollView *scrollView = [[UIScrollView alloc] initWithFrame:CGRectMake(0, 370, 380, 90)];
     CAGradientLayer *gradient = [CAGradientLayer layer];
     gradient.frame = scrollView.bounds;
     gradient.colors = [NSArray arrayWithObjects:(id)[UIColor whiteColor].CGColor,
                                                 (id)[UIColor grayColor].CGColor, nil];
     [scrollView.layer insertSublayer:gradient atIndex:0];
-    [self.view addSubview:scrollView];
+    [scrollView setScrollEnabled:YES];
+    [scrollView setShowsHorizontalScrollIndicator:YES];
+    [scrollView setContentSize:CGSizeMake(440, scrollView.frame.size.height - 10)];
     
-    UIButton *btn[4];
-    for (int i = 0; i < 4; i++) {
+    UIButton *btn[5];
+    for (int i = 0; i < 5; i++) {
         btn[i] = [UIButton buttonWithType:UIButtonTypeRoundedRect];
         NSString *str = [NSString stringWithFormat:@"%@%d%@", @"example", i + 1, @".png"];
         [btn[i] setImage:[UIImage imageNamed:str] forState:UIControlStateNormal];
         btn[i].tag = i;
         [btn[i] addTarget:self action:@selector(setMojiMisawa:) forControlEvents:UIControlEventTouchUpInside];
-        btn[i].frame = CGRectMake(70*i+10, 375, 70, 70);
-        [self.view addSubview:btn[i]];
+        btn[i].frame = CGRectMake(70*i+10, 5, 70, 70);
+        [scrollView addSubview:btn[i]];
     }
+    
+    [self.view addSubview:scrollView];
+    
 
     // アラート作成
     alert = [[UIAlertView alloc] init];
@@ -326,6 +331,10 @@
         case 4:
             [self setMojiMisawa4:btn];
             break;
+        case 5:
+            [self setMojiMisawa5:btn];
+            break;
+
         default:
             break;
     }
@@ -388,6 +397,8 @@
     mojiMisawa2Image = NULL;
     mojiMisawa3Image = NULL;
     mojiMisawa4Image = NULL;
+    mojiMisawa5Image = NULL;
+    
     
     if (!cancelFlag)
     {
